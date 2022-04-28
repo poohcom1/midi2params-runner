@@ -1,0 +1,15 @@
+name: midi2params
+description: A violin machine learning model trained with samples of amateur violin recordings.
+link: https://github.com/rodrigo-castellon/midi2params
+format: midi
+parameters:
+  ddspModel:
+    type: enum
+    default: CustomViolinCheckpoint
+    enum:
+      - CustomViolinCheckpoint
+      - 8DIOViolinCheckpointFull
+    label: Model
+script:
+  - venv\Scripts\activate
+  - py main.py midi_models\model_original_dict.pt ddsp_models\$ddspModel configs\midi2params.yml $DIR\$BASENAME $DIR\$BASENAME.wav

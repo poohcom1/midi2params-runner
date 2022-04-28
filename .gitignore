@@ -1,0 +1,8 @@
+venv
+files
+build
+
+midi_models
+ddsp_models
+
+**/__pycache__

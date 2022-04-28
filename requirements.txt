@@ -1,0 +1,13 @@
+ddsp==0.7.0
+pyyaml~=6.0
+addict~=2.4.0
+numpy~=1.21.5
+scipy~=1.7.3
+pretty_midi==0.2.9
+
+# Torch: see https://download.pytorch.org/whl/torch/ for your OS
+# torch~=1.2.0+cu92
+
+# Windows
+# https://download.pytorch.org/whl/cpu/torch-1.2.0%2Bcpu-cp37-cp37m-win_amd64.whl
+# https://download.pytorch.org/whl/cu92/torch-1.2.0%2Bcu92-cp37-cp37m-win_amd64.whl
